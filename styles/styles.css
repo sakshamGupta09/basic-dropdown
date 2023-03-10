@@ -1,0 +1,23 @@
+:root {
+  --bodybackgroundcolor: #f3f2ef;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #000000e6;
+  background-color: var(--bodybackgroundcolor);
+}
