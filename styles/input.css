@@ -1,0 +1,34 @@
+.input__group {
+  position: relative;
+}
+
+.input__field {
+  width: 100%;
+  height: 40px;
+  border: 2px solid;
+  border-color: var(--inputBorderColor);
+  background-color: var(--inputBgColor);
+  border-radius: var(--inputBorderRadius);
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  padding: 2px 1rem;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: inherit;
+}
+
+.input__field:hover {
+  background-color: var(--inputHoverBgColor);
+}
+
+.input__field:focus {
+  border-color: var(--themeColor);
+  background-color: white;
+}
+
+.input__icon {
+  color: var(--inputIconColor);
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}

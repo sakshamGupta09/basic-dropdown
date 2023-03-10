@@ -1,0 +1,13 @@
+:root {
+  --themeColor: #4c9aff;
+  --bodybackgroundcolor: white;
+  --inputBorderColor: #dfe1e6;
+  --inputBgColor: #fafbfc;
+  --inputHoverBgColor: #ebecf0;
+  --inputBorderRadius: 3px;
+  --inputIconColor: #42526e;
+  --dropdownOptionsContainerBorderRadius: 4px;
+  --dropdownOptionsContainerBoxShadow: 0 0 0 1px rgba(9, 30, 66, 0.13),
+    0 4px 11px rgba(9, 30, 66, 0.13);
+  --textColor: rgb(23, 43, 77);
+}
